@@ -47,3 +47,6 @@ List the pods that are running the  application:
  kubectl get pods --output=wide
  
  
+ PM2 is not good for in production we already have docker and kuberneetees
+ https://www.docker.com/blog/keep-nodejs-rockin-in-docker/
+ 
