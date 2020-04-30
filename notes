@@ -11,3 +11,20 @@ to push or just set up a automated build from git
 
 to run from uploaded image1
 docker run -p 8081:8081 [USERNAME]/hello-world
+
+
+
+-----------
+minikube
+ minikube start 
+
+ minikube kubectl -- get pods
+ minikube kubectl -- get svc
+
+ minikube dashboard
+
+ using minikube
+ https://kubernetes.io/docs/tutorials/hello-minikube/
+
+ if you want to make a website accessable you have to change it to NodePort you can find it under services in dashboard
+ https://www.youtube.com/watch?v=je5WRKxOkWQ
