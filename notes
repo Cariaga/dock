@@ -31,3 +31,12 @@ minikube
 
 to start in browser the app
  minikube service serviceName
+
+to get information about the services
+ kubectl describe services
+
+ creating a Node port service
+ kubectl expose deployment hello-world --type=NodePort --name=example-service
+
+List the pods that are running the  application:
+ kubectl get pods --output=wide
