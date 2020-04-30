@@ -28,3 +28,6 @@ minikube
 
  if you want to make a website accessable you have to change it to NodePort you can find it under services in dashboard
  https://www.youtube.com/watch?v=je5WRKxOkWQ
+
+to start in browser the app
+ minikube service serviceName
