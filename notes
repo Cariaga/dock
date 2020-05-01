@@ -16,8 +16,14 @@ docker run -p 8081:8081 [USERNAME]/hello-world
 
 
 ----
-seting up virutalbox version of kubernetees the docker version don't always work with windows.
+for windows with minikube
+seting up virutalbox version of kubernetees the  docker vm driver version don't always work with windows.
 https://www.youtube.com/watch?v=Fr_mnfjkYsc
+
+for windows that has manually installed ubuntu
+setting up docker on ubuntu virtualbox or real machine without using minikube
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+---
 
 -----------
 minikube
@@ -49,4 +55,13 @@ List the pods that are running the  application:
  
  PM2 is not good for in production we already have docker and kuberneetees
  https://www.docker.com/blog/keep-nodejs-rockin-in-docker/
+ 
+ 
+ docker ps //To show only running containers
+ 
+ get ip of container
+ https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host
+ 
+ how to access docker ip virtual machine from outside 
+ https://stackoverflow.com/questions/33814696/how-to-connect-to-a-docker-container-from-outside-the-host-same-network-windo
  
