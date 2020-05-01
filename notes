@@ -63,5 +63,6 @@ List the pods that are running the  application:
  https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host
  
  how to access docker ip virtual machine from outside 
+ note you will need to set up as bridge if its on windows virutalbox running ubuntu
  https://stackoverflow.com/questions/33814696/how-to-connect-to-a-docker-container-from-outside-the-host-same-network-windo
  
