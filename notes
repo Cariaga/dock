@@ -66,3 +66,9 @@ List the pods that are running the  application:
  note you will need to set up as bridge if its on windows virutalbox running ubuntu
  https://stackoverflow.com/questions/33814696/how-to-connect-to-a-docker-container-from-outside-the-host-same-network-windo
  
+ 
+ ----
+ docker run -it --rm -p 8081:8081 --network=host cariaga/dock
+ docker run -it --rm -p 0.0.0.0:8081:8081 cariaga/dock to run in all network interface
+ 
+ 
