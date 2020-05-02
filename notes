@@ -28,6 +28,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 -----------
 minikube
  minikube start 
+ 
+more drivers for minikube
+https://minikube.sigs.k8s.io/docs/drivers/
 
  minikube kubectl -- get pods
  minikube kubectl -- get svc
