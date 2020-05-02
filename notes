@@ -2,6 +2,10 @@ don'ts
 run docker in docker
 run database in k8s cluster it should be next to it not inside it.
 
+---
+
+
+-------
 https://buddy.works/guides/how-dockerize-node-application
 
 the FROM node:latest inside docker file means the latest node
@@ -92,3 +96,8 @@ docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
  
  
+ -----------
+ kuberneetes 101
+ https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16
+ 
+docker images can be run on their own or inside a cluster like kuberneetes
