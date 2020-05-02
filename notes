@@ -77,5 +77,10 @@ the one that starts with 172 is a container ip
 the IP that starts with 192 can be accessed locally between computers
  hostname -I
 
+
+---
+stop and remove container
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
  
  
