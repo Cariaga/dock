@@ -72,8 +72,9 @@ List the pods that are running the  application:
  docker run -it --rm -p 0.0.0.0:8081:8081 cariaga/dock to run in all network interface
 
 ------
-to get all Ip some of of it is probobly the container ip which you can access same machine
-the first IP result should be your ip within the network
+to get all Ip some of of it is probobly the container ip which you can access same machine 
+the one that starts with 172 is a container ip 
+the IP that starts with 192 can be accessed locally between computers
  hostname -I
 
  
