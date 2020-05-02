@@ -74,7 +74,7 @@ List the pods that are running the  application:
 ------
 to get all Ip some of of it is probobly the container ip which you can access same machine 
 the one that starts with 172 is a container ip 
-the IP that starts with 192 can be accessed locally between computers
+the IP that starts with 192 can be accessed locally between computers even if you are on a bridge or host network it should work
  hostname -I
 
 
