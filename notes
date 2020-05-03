@@ -106,4 +106,16 @@ docker images can be run on their own or inside a cluster like kuberneetes
 an easy way to get your url of your site
 minikube service list
 
-minikube web apps can only be access on same machine not local network
+
+----------
+Modifying a service to a NodePort is one way of making your app accessable but keep in mind this is within the host still
+the url structure for NodePort is containerIP+Service GeneratedNodePort
+
+while Using the LoadBalancer type of service will give you a new ip each time but keeping the port of the app
+LoadBalancer type requries you to run a seperate terminal and run the command minikube tunnel
+In LoadBalancer you will notice External Endpoint has a url
+the url for LoadBalancer looks like 10.108RandomGenerated+yourAppExposedPort
+https://minikube.sigs.k8s.io/docs/handbook/accessing/
+---------
+
+minikube web apps can only be access on same machine not local network as of now
