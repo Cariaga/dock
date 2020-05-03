@@ -113,8 +113,9 @@ the url structure for NodePort is containerIP+Service GeneratedNodePort
 
 while Using the LoadBalancer type of service will give you a new ip each time but keeping the port of the app
 LoadBalancer type requries you to run a seperate terminal and run the command minikube tunnel
-In LoadBalancer you will notice External Endpoint has a url
+In LoadBalancer you will notice External Endpoint has a url for 
 the url for LoadBalancer looks like 10.108RandomGenerated+yourAppExposedPort
+but you can still access containerIP+ServiceGeneratedNodePort for the LoadBalancer Type
 https://minikube.sigs.k8s.io/docs/handbook/accessing/
 ---------
 
