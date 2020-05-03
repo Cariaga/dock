@@ -1,7 +1,7 @@
 don'ts
 run docker in docker
 run database in k8s cluster it should be next to it not inside it.
-
+NodePorts are not designed for production LoadBalancer is still used
 ---
 
 
