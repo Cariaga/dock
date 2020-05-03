@@ -101,3 +101,7 @@ docker rm $(docker ps -a -q)
  https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16
  
 docker images can be run on their own or inside a cluster like kuberneetes
+
+
+an easy way to get your url of your site
+minikube service list
