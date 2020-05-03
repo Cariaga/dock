@@ -105,3 +105,5 @@ docker images can be run on their own or inside a cluster like kuberneetes
 
 an easy way to get your url of your site
 minikube service list
+
+minikube web apps can only be access on same machine not local network
