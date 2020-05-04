@@ -122,3 +122,8 @@ https://minikube.sigs.k8s.io/docs/handbook/accessing/
 ---------
 
 minikube web apps can only be access on same machine not local network as of now
+
+
+----
+
+ingres nginx is still needed to expose kubernetees
